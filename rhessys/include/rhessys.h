@@ -1656,7 +1656,6 @@ struct patch_object
         double  Kstar_soil;                     /* Kj/(m^2*day) */
         double  Kdown_direct_subcanopy;         /* Kj/(m^2*day) */
         double  Kdown_diffuse_subcanopy;                /* Kj/(m^2*day) */
-        double  Ksat_0;                 /* meteres/day  */
         double  Ksat_vertical;          /* meters/day   */
         double  lna;                    /* unitless     */
         double  lai;                    /* unitless     */
@@ -1761,7 +1760,7 @@ struct patch_object
         double  windsnow_final;         /* m/s          */
         double  ustar;                  /* m/s          */
         double  ustar_final;            /* m/s          */
-        double  wilting_point;          /* mm */
+        double  wilting_point;          /* m */
         double overstory_fraction; /* 0-1 */
         double trans_reduc_perc; /*0-1*/
         double overland_flow; /* m/s */
