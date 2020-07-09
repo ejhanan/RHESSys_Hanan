@@ -2,6 +2,8 @@
 *.o
 *.pyc
 rhessys/rhessys7.0
+rhessys/rhessys7.*
+
 
 # Build directories
 objects/
@@ -32,6 +34,7 @@ rhessys/.vscode
 
 # OS X extended attribute stores
 .DS_Store
+.DS_Store*
 
 # Editor leftovers
 *~
@@ -41,4 +44,12 @@ rhessys/.vscode
 libwmfire.dylib
 libwmfire.so
 
+# R
 .Rproj.user
+.Rhistory
+
+# vscode 
+rhessys/.vscode
+
+# made by R func compile_rhessys (should be deleted typically)
+.makefile_tmp
