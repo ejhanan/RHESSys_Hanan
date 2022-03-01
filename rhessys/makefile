@@ -1,4 +1,4 @@
-VERSION = 8
+VERSION = 7.1.FuelAccumulation
 PGM  = rhessys$(VERSION)
 CC = gcc
 #CXX = g++

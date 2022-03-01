@@ -179,12 +179,11 @@ void	execute_tec(
 		struct	date);
 
 	void    execute_beetlespread_event(
-						world,
-						command_line,
-						current_date
+		struct	world_object *,
+		struct	command_line_object *,
+		struct	date);
 
 
-	);
 	void	execute_state_output_event(
 		struct world_object *,
 		struct date,
